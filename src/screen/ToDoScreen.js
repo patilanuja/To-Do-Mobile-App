@@ -16,13 +16,6 @@ const TodoScreen = () => {
 
     const handleAddTodo = ()=>{
 
-        // structure of a single todo item
-
-        // {
-        //     id:
-        //     title:
-        // }
-
         if (todo === ""){
             return; // early return
         }
